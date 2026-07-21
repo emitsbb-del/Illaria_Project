@@ -1,0 +1,18 @@
+Este juego necesita un archivo de fuente .ttf en esta carpeta llamado "game_font.ttf"
+para poder dibujar texto (menú, diálogos, HUD).
+
+No se incluye ninguna fuente en este repositorio por licencia/tamaño. Para jugar:
+
+1. Elige cualquier fuente .ttf que ya tengas en tu sistema, por ejemplo:
+   - Windows:  C:\Windows\Fonts\arial.ttf  (o consolas.ttf, verdana.ttf...)
+   - macOS:    /System/Library/Fonts/Supplemental/Arial.ttf
+   - Linux:    /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+
+2. Cópiala en esta carpeta (assets/fonts/) y renómbrala a: game_font.ttf
+
+Recomendado para un look más "retro/sci-fi" acorde a la temática: una fuente
+monoespaciada tipo "Press Start 2P", "VT323" o "Share Tech Mono" (todas
+gratuitas, disponibles en Google Fonts).
+
+Si no añades ninguna fuente, el juego sigue funcionando (no se cae), pero
+el menú, el HUD y los diálogos no mostrarán texto.
